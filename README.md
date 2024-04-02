@@ -7,10 +7,9 @@ To intsall all the required dependecies
 
       npm install
 
-git clone https://github.com/your-username/todo-app.git
+Start the project
 
-Install dependencies:
-Navigate to the project directory and install the necessary dependencies by running:
+      npm start
 
 bash
 
