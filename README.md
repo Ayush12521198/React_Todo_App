@@ -21,6 +21,9 @@ Start the application by executing:
 
 Test the application
 
+    npm test
+
+    
 The ToDo app offers the following features:
 
     Add Tasks: Easily add new tasks to your list.
