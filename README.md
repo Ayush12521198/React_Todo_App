@@ -4,7 +4,8 @@ ToDo App
 
 This is a simple ToDo application built with React, featuring drag-and-drop functionality using react-beautiful-dnd.
 To intsall all the required dependecies
-   npm install
+
+      npm install
 
 git clone https://github.com/your-username/todo-app.git
 
