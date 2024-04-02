@@ -11,22 +11,15 @@ Start the project
 
       npm start
 
-bash
-
-cd todo-app
-npm install
-
 Run the application:
 Start the application by executing:
-
-sql
 
     npm start
 
     Open the application:
     Once the application is running, open your web browser and go to http://localhost:3000 to view the ToDo app.
 
-Features
+Test the application
 
 The ToDo app offers the following features:
 
