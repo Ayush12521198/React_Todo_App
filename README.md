@@ -24,31 +24,11 @@ Test the application
     npm test
 
     
-The ToDo app offers the following features:
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
 
-    Add Tasks: Easily add new tasks to your list.
-    Edit Tasks: Modify the details of existing tasks.
-    Mark as Completed: Toggle the completion status of tasks.
-    Filter Tasks: Filter tasks based on their completion status (all, completed, uncompleted).
-    Drag and Drop: Reorder tasks using drag-and-drop functionality.
-    Delete Tasks: Remove individual tasks or clear the entire list.
+Build application
 
-Folder Structure
+    npm run build
 
-The project structure is organized as follows:
-
-arduino
-
-todo-app/
-  ├── public/
-  │   └── index.html
-  ├── src/
-  │   ├── components/
-  │   │   ├── List.js
-  │   │   ├── Task.js
-  │   │   └── context.js
-  │   ├── App.css
-  │   ├── App.js
-  │   └── index.js
-  ├── package.json
-  └── README.md
+Builds the app for production to the build folder.
