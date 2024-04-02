@@ -1,37 +1,64 @@
 # React_Todo_App
-React Todo App
-Installation
 
-To install all the required dependencies, run the following command:
+ToDo App
+
+This is a simple ToDo application built with React, featuring drag-and-drop functionality using react-beautiful-dnd.
+Setup
+
+To get started with the ToDo app, follow these steps:
+
+    Clone the repository:
+    Clone the GitHub repository to your local machine using the following command:
+
+    bash
+
+git clone https://github.com/your-username/todo-app.git
+
+Install dependencies:
+Navigate to the project directory and install the necessary dependencies by running:
 
 bash
 
+cd todo-app
 npm install
 
-Starting the Project
+Run the application:
+Start the application by executing:
 
-To start the project, use the following command:
+sql
 
-bash
+    npm start
 
-npm start
+    Open the application:
+    Once the application is running, open your web browser and go to http://localhost:3000 to view the ToDo app.
 
-This command runs the app in the development mode. Open http://localhost:3000 to view it in the browser.
-Testing
+Features
 
-To test the application, use the following command:
+The ToDo app offers the following features:
 
-bash
+    Add Tasks: Easily add new tasks to your list.
+    Edit Tasks: Modify the details of existing tasks.
+    Mark as Completed: Toggle the completion status of tasks.
+    Filter Tasks: Filter tasks based on their completion status (all, completed, uncompleted).
+    Drag and Drop: Reorder tasks using drag-and-drop functionality.
+    Delete Tasks: Remove individual tasks or clear the entire list.
 
-npm test
+Folder Structure
 
-This launches the test runner in the interactive watch mode.
-Building the Application
+The project structure is organized as follows:
 
-To build the application for production, use the following command:
+arduino
 
-bash
-
-npm run build
-
-This command builds the app for production, placing the output in the build folder.
+todo-app/
+  ├── public/
+  │   └── index.html
+  ├── src/
+  │   ├── components/
+  │   │   ├── List.js
+  │   │   ├── Task.js
+  │   │   └── context.js
+  │   ├── App.css
+  │   ├── App.js
+  │   └── index.js
+  ├── package.json
+  └── README.md
