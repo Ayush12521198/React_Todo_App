@@ -1,22 +1,37 @@
 # React_Todo_App
-To intsall all the required dependecies
+React Todo App
+Installation
+
+To install all the required dependencies, run the following command:
+
+bash
 
 npm install
 
-Start the project
+Starting the Project
+
+To start the project, use the following command:
+
+bash
 
 npm start
 
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in the browser.
-Test the application
+This command runs the app in the development mode. Open http://localhost:3000 to view it in the browser.
+Testing
+
+To test the application, use the following command:
+
+bash
 
 npm test
 
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
-Build application
+This launches the test runner in the interactive watch mode.
+Building the Application
+
+To build the application for production, use the following command:
+
+bash
 
 npm run build
 
-Builds the app for production to the build folder.
+This command builds the app for production, placing the output in the build folder.
